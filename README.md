@@ -5,4 +5,4 @@
 <h6>Eu usei HTML e CSS para fazer e projetar o site e utilizei <strong>JavaScript</strong> para fazer o menu responsivo</h6>
 
 <h3>Você pode acessar este site po aqui: </h3>
-<a href="https://lambent-cuchufli-ea08b3.netlify.app/">Acessar site</a>
+<a href="https://lively-stroopwafel-baa406.netlify.app/">Acessar site</a>
