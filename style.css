@@ -212,30 +212,7 @@ header{
     padding: 2px;
     margin: 20px;
 }
-.jogos{
-    width: 1000px;
-    margin: auto;
-    margin-top: 100px;
-    background-color: #050505e5;
-    padding: 20px;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 15px;
-}
-.jogos h2{
-    font-size: 2.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.jogos p{
-    margin: 20px 0px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    text-transform: capitalize;
-}
-.gamesPc{
-    width: 800px;
-    border-radius: 20px;
-}
+
 .agendar{
     padding: 5px 4rem;
     border-radius: 3rem;
@@ -400,101 +377,11 @@ iframe{
         margin: auto;
     }
 }
-@media screen and (max-width: 1040px){
-    .jogos{
-        width: 800px;
-        margin: auto;
-        margin-top: 100px;
-        background-color: #050505e5;
-        padding: 20px;
-        text-align: center;
-        color: aliceblue;
-        border-radius: 15px;
-    }
-    .gamesPc{
-        width: 600px;
-        border-radius: 20px;
-    }
-}
-@media screen and (max-width: 840px){
-    .jogos{
-        max-width: 700px;
-        margin: auto;
-        margin-top: 100px;
-        background-color: #050505e5;
-        padding: 20px;
-        text-align: center;
-        color: aliceblue;
-        border-radius: 15px;
-    }
-    
-    .gamesPc{
-        width: 500px;
-        border-radius: 20px;
-    }
-}
-@media screen and (max-width: 740px){
-    .jogos{
-        width: 605px;
-        margin: auto;
-        margin-top: 100px;
-        background-color: #050505e5;
-        padding: 20px;
-        text-align: center;
-        color: aliceblue;
-        border-radius: 15px;
-    }
-    .gamesPc{
-        width: 450px;
-        border-radius: 20px;
-    }
-}
 @media screen and (max-width: 640px){
-    .jogos{
-        max-width: 505px;
-        margin: auto;
-        margin-top: 100px;
-        background-color: #050505e5;
-        padding: 20px;
-        text-align: center;
-        color: aliceblue;
-        border-radius: 15px;
-    }
-    .gamesPc{
-        width: 450px;
-        border-radius: 20px;
-    }
     .local{
         width: 96%;
     }
 }
-@media screen and (max-width: 600px){
-    .jogos p{
-        margin: 20px 0px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: lighter;
-        text-transform: capitalize;
-        font-size: 0.9rem;
-    }
-}
-@media screen and (max-width: 550px){
-    .jogos{
-        width: 410px;
-    }
-    .gamesPc{
-        width: 387px;
-    }
-}
-@media screen and (max-width: 440px){
-    .jogos{
-        width: 80%px;
-    }
-    .gamesPc{
-        width: 85%;
-    }
-}
-@media screen and (max-width: 340px){}
-
 @media screen and (max-width: 1000px){
     header{
         height: 7rem;
