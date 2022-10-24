@@ -485,7 +485,14 @@ iframe{
         width: 387px;
     }
 }
-@media screen and (max-width: 440px){}
+@media screen and (max-width: 440px){
+    .jogos{
+        width: 80%px;
+    }
+    .gamesPc{
+        width: 85%;
+    }
+}
 @media screen and (max-width: 340px){}
 
 @media screen and (max-width: 1000px){
