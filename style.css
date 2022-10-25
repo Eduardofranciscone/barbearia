@@ -323,6 +323,27 @@ iframe{
     border-radius: 5px;
 }
 
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+}
+footer p{
+    font-size: 1.4rem;
+}
+footer a{
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+    transition: all .40s ease;
+}
+footer a:hover{
+    border-bottom: 2px solid #23606E;
+}
 @media screen and (max-width: 1300px){
     .dp-content{
         max-width: 85%;
@@ -336,8 +357,10 @@ iframe{
         justify-content: center;
         gap: 5rem;
     }
-    body{
-        padding: 20px;
+   
+    footer{
+        width: 100%;
+        box-sizing: calc();
     }
     .about-img img{
         max-width: 70.9rem;
@@ -380,6 +403,9 @@ iframe{
 @media screen and (max-width: 640px){
     .local{
         width: 96%;
+    }
+    footer p{
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 1000px){
@@ -508,6 +534,15 @@ iframe{
   @media screen and (max-width: 500px){
     .local{
         width: 95%;
+    }
+    footer p{
+        font-size: 1.4rem;
+    }
+    footer{
+        gap: 10px;
+    }
+    footer li{
+        margin-bottom: 10px;
     }
     .galeria{
         width: 90%;
