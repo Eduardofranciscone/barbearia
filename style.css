@@ -105,6 +105,9 @@ header{
     width: 600px;
     border-radius: 10px;
 }
+.p-about{
+    text-transform: capitalize;
+}
 .about-conteudo h2 {
     font-size: var(--h2);
     margin-bottom: 2rem;
