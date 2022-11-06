@@ -71,6 +71,11 @@ header{
     flex-direction: row;
     gap: 10px;
 }
+.h1-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 .home-conteudo h1{
     line-height: 1.2;
     font-weight: 600;
@@ -589,6 +594,12 @@ footer a:hover{
     iframe{
         width: 90%;
     }
+    .h1-logo{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
   }
 /*Animação*/
 .galeria img{
