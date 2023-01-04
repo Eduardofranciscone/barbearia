@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bárbaros barber</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -19,16 +20,16 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <div class="h1-logo">
+    <header class="header d-flex ">
+        <div class="logo align-items-center" >
+            <div class="h1-logo " id="h1-logo">
                 <h1>BÁRBAROS</h1>
                 <h1>BARBER</h1>
             </div>
             <picture><img src="images/logo.png" alt="logo"></picture>
         </div>
         </a>
-        <ul class="navlist">
+        <ul class="navlist align-items-center" >
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>
@@ -39,7 +40,7 @@
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
-
+<hr>
     <section id="home">
         <div class="home-conteudo">
             <h1>A melhor barbearia para o cuidado do seu cabelo</h1>
@@ -63,14 +64,22 @@
     </section>
 
 
-    <article id="depoimentos" class="depoimentos">
+    <article id="depoimentos" class="depoimentos carousel slide" data-bs-ride="carousel">
+
+        
+        <ul class="carousel-indicators">
+            <li data-bs-target="#depoimentos" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#depoimentos" data-bs-slide-to="1"></li>
+            <li data-bs-target="#depoimentos" data-bs-slide-to="2"></li>
+            <li data-bs-target="#depoimentos" data-bs-slide-to="3"></li>
+        </ul>
+
         <div class="cabecalho">
             <h2>Depoimentos</h2>
-            <p>É muito importante verificar se o serviço é de qualidade mesmo.</p>
         </div>
 
-        <div class="dp-content">
-            <div class="card">
+        <div class="dp-content carousel-inner">
+            <div class="card carousel-item active">
                 <div class="depoimentos-conteudo">
                     <h3>Bruno machado</h3>
                     <q>Barbeiros excelentes. Jonathas, Bruno e Junior são top. Tratamento diferenciado na hora de dar um
@@ -78,27 +87,37 @@
                         pagarei mais caro e o serviço não ficará conforme o previsto.</q>
                 </div>
             </div>
-            <div class="card">
+
+            <div class="card carousel-item">
                 <div class="depoimentos-conteudo">
                     <h3>Felipe castro</h3>
                     <q>Galera super gente boa, com profissionais especializado em corte de cabelo moderno.. Só corto o
                         meu cabelo e dos meus filhos nós Bárbaros.. Recomendo!!</q>
                 </div>
             </div>
-            <div class="card">
+
+            <div class="card carousel-item">
                 <div class="depoimentos-conteudo">
                     <h3>Cristiano souza</h3>
                     <q>Profissionais muito bons!!! Preços justos!!! Bom papo, cerveja gelada e atendimento
                         excelente!!!</q>
                 </div>
             </div>
-            <div class="card">
+
+            <div class="card carousel-item">
                 <div class="depoimentos-conteudo">
                     <h3>Bruno barradas</h3>
                     <q>Rapaziada da melhor qualidade. Tratamento refinado. O melhor da ilha sem dúvida.</q>
                 </div>
             </div>
         </div>
+        <a href="#depoimentos" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#depoimentos" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
     </article>
 
     <section id="galeria" class="galeria">
@@ -199,6 +218,11 @@
             </li>
         </ul>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    
     <script src="script.js"></script>
 </body>
 

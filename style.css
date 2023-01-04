@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    background-color: #000000;
+}
 :root {
     --h1: 5.8rem;
     --h2: 3.7rem;
@@ -24,23 +27,28 @@ header{
     padding: 20px 5%;
     background: #fcfcfc;
     box-shadow: 0 0.5rem 0.2rem -0.2rem rgba(11, 12, 18, 0.2);
+    background-color: #ffffff;
+    
 }
 
 .navlist{
     display: flex;
+    text-decoration: none;
 }
 .navlist a{
-    color: #3e1908;
+    color: #000000;
     font-size: 1rem;
     font-weight: 500;
     padding: 5px 5px;
     margin: 0 22px;
     border-bottom: 2px solid transparent;
     transition: all .40s ease;
+    text-decoration: none;
+    
 }
 .navlist a:hover{
-    color: #ca7c62;
-    border-bottom: 2px solid #ca7c62;
+    color: #e1ff00;
+    border-bottom: 2px solid #000000;
 }
 
 .icons{
@@ -75,6 +83,7 @@ header{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    color:#DBF227;
 }
 .home-conteudo h1{
     line-height: 1.2;
@@ -451,7 +460,7 @@ footer a:hover{
         right: 0;
         display: flex;
         flex-direction: column;
-        background: #fbf6ef;
+        background: #DBF227;
         text-align: left;
         transition: all .43s ease;
     }
@@ -461,15 +470,20 @@ footer a:hover{
         padding: 0.5rem;
         margin: 1.1rem;
         border-bottom: none;
-        border-left: 2px solid #3e1908;
+       
+        
     }
     .navlist a:hover{
         border-bottom: none;
-        background: #3e1908;
+        background: #000000;
         color: white;
+        border-radius: 5px;
     }
     .navlist.open{
         top: 100%;
+    }
+    .h1-logo{
+        color:#000000;
     }
 }
 
