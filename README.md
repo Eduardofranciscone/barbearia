@@ -1,8 +1,3 @@
 # barbearia
-<h4>Website feito totalmente responsivo</h4>
- <p> site feito para uma barbearia da minha cidade 
+<h4>PROJETO EM ANDAMENTO</h4>
  
-<h6>Eu usei HTML e CSS para fazer e projetar o site e utilizei <strong>JavaScript</strong> para fazer o menu responsivo</h6>
-
-<h3>Você pode acessar este site po aqui: </h3>
-<a href="https://calm-gaufre-9fe1ef.netlify.app/">Acessar site</a>
