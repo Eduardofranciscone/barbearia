@@ -1,4 +1,5 @@
 # barbearia
 <h4>PROJETO EM ANDAMENTO</h4>
-https://precious-crostata-80b58b.netlify.app/
+#teste:
+https://lucent-palmier-226255.netlify.app/
  
