@@ -328,8 +328,6 @@ iframe {
 .li-contact:hover{
     transform: scale(1.1);
     background-position: -60px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    
 }
    
 .local h2{
@@ -401,27 +399,7 @@ footer a {
         box-sizing: calc();
     }
 
-    .about-img img {
-        max-width: 70.9rem;
-        height: auto;
-        object-fit: cover;
-        width: 100%;
-        height: 28rem;
-    }
-
-    .about-conteudo {
-        order: -1;
-    }
-
-    .about-conteudo h2 {
-        font-size: 2.8rem;
-    }
-
-    .about-conteudo p {
-        max-width: 75ch;
-        font-size: 1.3rem;
-    }
-
+    
     #home {
         padding-top: 14rem;
     }
@@ -509,10 +487,7 @@ footer a {
         font-size: 15px;
         display: block;
         padding: 0.5rem;
-        margin: 1.1rem;
         border-bottom: none;
-
-
     }
 
     .navlist a:hover {
@@ -526,11 +501,12 @@ footer a {
         top: 100%;
     }
 
-    .to{
+    .btn-agenda{
         background-color: #000000;
         color: white;
         width: 200px;
         text-align: center;
+        margin-bottom: 5px;
     }
     .h1-logo {
         color: #000000;
@@ -570,6 +546,9 @@ footer a {
     .marcar-hr {
         width: 80%;
     }
+    .avaliacao .owl-carousel .item {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -579,6 +558,9 @@ footer a {
 
     footer p {
         font-size: 1.2rem;
+    }
+    .marcar-hr ul{
+        text-align: center;
     }
     
 }
@@ -594,6 +576,9 @@ footer a {
     .galeria h2 {
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 5px;
+    }
+    .galeria .owl-carousel .item img{
+       margin: auto;
     }
 }
 
