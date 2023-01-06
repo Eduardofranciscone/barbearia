@@ -1,5 +1,13 @@
 # barbearia
-<h4>PROJETO EM ANDAMENTO</h4>
-#teste:
-https://lucent-palmier-226255.netlify.app/
- 
+<h1>PROJETO BARBEARIA</h1>
+
+ <h3>Utilizei as Tecnologias:</h3>
+ <ul>
+    <li>HTML</li>
+    <li>CSS/Boostrap</li>
+    <li>JavaScript/jQuery</li>
+</ul>
+<h3>Link do projeto</h3>
+ <ul>
+   <li> <a href="https://idyllic-treacle-a08770.netlify.app/">Abrir Projeto</li>
+ </ul>  
