@@ -18,7 +18,7 @@ body {
     --hero-p: 3rem;
     --mg-lados: 5%;
 }
-/*HEADER  ATE ABOUT*/
+/*HEADER  E SERVIÇOS*/
 header {
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@ header {
     display: flex;
     text-decoration: none;
 }
-.to{
+.btn-agenda{
     background-color: yellow;
     padding: 10px 20px;
     border: none;
@@ -51,10 +51,14 @@ header {
     border-bottom: 2px solid transparent;
     transition: all .40s ease;
     text-decoration: none;
-    
+}
+.btn-agenda:hover{
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.navlist .a {
+.navlist .normal-list {
     color: #000000;
     font-size: 1rem;
     font-weight: 500;
@@ -136,65 +140,46 @@ header {
     object-fit: cover;
 }
 
-.sobre {
-    margin: 0px var(--mg-lados);
-    margin-top: -100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 10rem;
-    padding: 14rem 0;
-}
-
-.about-img img {
-    max-width: 55.6rem;
-    height: auto;
-    object-fit: cover;
-    width: 600px;
-    border-radius: 10px;
-}
-
-.p-about {
-    text-transform: capitalize;
-}
-
-.about-conteudo h2 {
-    font-size: var(--h2);
-    margin-bottom: 2rem;
-    font-family: "Nunito", sans-serif;
-}
-
-.about-conteudo p {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin-bottom: 0.5rem;
-    color: #d4d4d4;
-}
-
 mark {
     background-color: #DBF227;
     border-radius: 2px;
 }
 
-.about-conteudo p:nth-child(3) {
-    margin-bottom: 3rem;
+.item h4{
+    text-align: center;
 }
-
+#servicos h2{
+    text-align: center;
+    
+}
+h2{
+    font-size: 2.7rem;
+    margin-bottom: 40px;
+}
+.servicos-img{
+   font-size: 100px;
+}
+.img-ser{
+    text-align: center;
+}
 /*Depoimentos e Galeria*/
 
 
 .avaliacao{
     text-align: center;
-    color: white;
+}
+.avaliacao .owl-carousel .item{
+    background-color: white;
+    color: black;
+    height: 300px;
 }
 .item {
-    color: white;
-    border: 1px solid white;
+    color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 10px;
     width: 280px;
-    height: 310px;
     font-size: 1.1rem;
+    background-color: #000000;
 }
 
 .star{
@@ -224,22 +209,17 @@ mark {
     height: 100%;
 }
 
-.item div img{
-    width: 100%;
-    height: 100%;
-}
-
-.galeria .owl-carousel .item{
-   
-}
-
 .galeria h2 {
     text-align: center;
     font-size: 2.4rem;
     margin-top: 10px;
     font-family: 'Roboto Mono', monospace;
 }
-
+.galeria .owl-carousel .item img{
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+}
 .agendar {
     padding: 5px 4rem;
     border-radius: 3rem;
@@ -681,5 +661,4 @@ footer a {
 
 .galeria img:hover {
     transform: scale(1.1);
-    border-radius: 4px;
 }
