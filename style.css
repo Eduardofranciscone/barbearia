@@ -365,6 +365,7 @@ iframe {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 80px;
     width: 100%;
@@ -520,13 +521,15 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
-    
+    .marcar-hr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .marcar-hr ul {
         display: flex;
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
         gap: 10px;
     }
 }
