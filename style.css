@@ -162,6 +162,12 @@ h2{
 .img-ser{
     text-align: center;
 }
+
+h6{
+    color: #DBF227;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
 /*Depoimentos e Galeria*/
 
 
@@ -303,7 +309,7 @@ iframe {
 
 .marcar-hr h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 2rem;
     color: aliceblue;
 }
@@ -579,6 +585,9 @@ footer a {
     }
     .galeria .owl-carousel .item img{
        margin: auto;
+    }
+    h6{
+        font-size: 1.3rem;
     }
 }
 
