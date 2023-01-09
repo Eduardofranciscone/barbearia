@@ -592,12 +592,14 @@ footer a {
     h6{
         font-size: 1.3rem;
     }
+    
 }
 
 @media screen and (max-width: 500px) {
     .local {
         width: 95%;
     }
+   
 
     footer p {
         font-size: 1.4rem;
