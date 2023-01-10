@@ -347,6 +347,7 @@ iframe {
 }
 .footer-content i{
     font-size: 18px;
+    line-height: 28px;
 }
 
 h5{
@@ -576,7 +577,9 @@ footer a{
     .local {
         width: 95%;
     }
-   
+    .footer-content i{
+        line-height: 25px;
+    }
     .footer-content{
         display: flex;
         flex-direction: column;
