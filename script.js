@@ -4,8 +4,13 @@ let navlist= document.querySelector('.navlist')
 menu.onclick= () =>{
     menu.classList.toggle('bx-x')
     navlist.classList.toggle('open')
- 
 }
+
+window.onscroll=()=>{
+    navlist.classList.remove("open")
+    menu.classList.remove('bx-x')
+}
+
 
 $('.owl-carousel').owlCarousel({
     loop:true,

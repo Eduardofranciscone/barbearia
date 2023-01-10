@@ -18,7 +18,7 @@ body {
     --hero-p: 3rem;
     --mg-lados: 5%;
 }
-/*HEADER  E SERVIÇOS*/
+
 header {
     position: fixed;
     top: 0;
@@ -32,13 +32,13 @@ header {
     background: #fcfcfc;
     box-shadow: 0 0.5rem 0.2rem -0.2rem rgba(11, 12, 18, 0.2);
     background-color: white;
-
 }
 
 .navlist {
     display: flex;
     text-decoration: none;
 }
+
 .btn-agenda{
     background-color: yellow;
     padding: 10px 20px;
@@ -67,12 +67,10 @@ header {
     border-bottom: 2px solid transparent;
     transition: all .40s ease;
     text-decoration: none;
-
 }
-
-.navlist .a:hover {
-    color: #e1ff00;
-    border-bottom: 2px solid #000000;
+.navlist .normal-list:hover { 
+    border-bottom: 2px solid #DBF227;
+    transition: 1.2s all ease;
 }
 
 .icons {
@@ -123,28 +121,6 @@ header {
     max-width: 900px;
 }
 
-.conteudo p {
-    font-size: var(--hero-p);
-    line-height: 1.5;
-    font-weight: 400;
-    margin-bottom: 5rem;
-    color: #474d59;
-}
-
-.primeira-img img {
-    width: 28rem;
-    height: calc(100vh - 7.5rem);
-    max-height: 70rem;
-    border-bottom-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    object-fit: cover;
-}
-
-mark {
-    background-color: #DBF227;
-    border-radius: 2px;
-}
-
 .item h4{
     text-align: center;
 }
@@ -168,7 +144,7 @@ h6{
     font-weight: bold;
     font-size: 1.4rem;
 }
-/*Depoimentos e Galeria*/
+
 
 .avaliacao{
     text-align: center;
@@ -356,40 +332,40 @@ iframe {
     text-decoration: underline;
    
 }
-
-
 .footer {
     background-color: rgb(224, 224, 224);
     color: rgb(0, 0, 0);
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 80px;
     width: 100%;
 }
 
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-content i{
+    font-size: 18px;
+}
+
+h5{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 footer p {
     font-size: 1.4rem;
+    margin-top: 50px;
+    text-align: center;
 }
 
-footer a {
+footer a{
     color: rgb(18, 18, 18);
-    border-bottom: 2px solid transparent;
     transition: all .40s ease;
     font-weight: bold;
+    
 }
-@media screen and (max-width:1098px){
-    .marcar-hr ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        gap: 10px;
-    }
-}
-
 @media screen and (max-width: 1170px) {
 
     #home,
@@ -416,13 +392,8 @@ footer a {
         margin: 0 auto;
     }
 
-    .primeira-img img {
-        width: 100%;
-        height: 30rem;
-        border-radius: 3rem;
-
-    }
 }
+
 @media screen and (max-width: 1130px) {
     .item {
         padding: 15px;
@@ -432,14 +403,22 @@ footer a {
     }
 }
 
+@media screen and (max-width:1098px){
+    .marcar-hr ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
 @media screen and (max-width: 1012px) {
     .item{
         width: 240px;
         height: 290px;
     }
 }
-
-
 
 @media screen and (max-width: 1000px) {
     header {
@@ -453,6 +432,7 @@ footer a {
         font-size: 1rem;
     }
 }
+
 @media (max-width:999px) {
     .avaliacao{
         text-align: center;
@@ -460,7 +440,6 @@ footer a {
     .item {
         margin: auto;
     }
-   
 }
 
 @media (max-width:975px) {
@@ -533,7 +512,6 @@ footer a {
     }
 }
 
-
 @media screen and (max-width: 750px) {
     .home-conteudo {
         max-width: 100ch;
@@ -599,6 +577,15 @@ footer a {
         width: 95%;
     }
    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-content ul,.footer-address{
+        text-align: center;
+    }
 
     footer p {
         font-size: 1.4rem;
