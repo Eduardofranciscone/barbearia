@@ -9,5 +9,5 @@
 </ul>
 <h3>Link do projeto</h3>
  <ul>
-   <li> <a href="https://astounding-conkies-9eeb11.netlify.app/">Abrir Projeto</li>
+   <li> <a href="https://relaxed-fairy-146e44.netlify.app/">Abrir Projeto</li>
  </ul>  
